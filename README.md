@@ -1,6 +1,6 @@
-# Cursor Weekly Review Skill
+# AI Weekly Review Skill
 
-A Cursor AI agent system for people who feel busy and productive every day but can't tell where their energy and attention actually go — and can't detect what's being neglected or whether consistent patterns exist across their life.
+An AI agent system for people who feel busy and productive every day but can't tell where their energy and attention actually go — and can't detect what's being neglected or whether consistent patterns exist across their life.
 
 This is not a productivity tracker. It's a **life-coach agent** that reads your raw daily notes and surfaces behavioral patterns, emotional undercurrents, and blind spots you didn't notice yourself.
 
