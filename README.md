@@ -6,6 +6,17 @@ This is not a productivity tracker. It's a **life-coach agent** that reads your 
 
 ---
 
+## Tool Compatibility
+
+| Tool | How it works |
+|---|---|
+| **Cursor** | `.cursor/rules/` and `.cursor/skills/` load automatically — no setup needed |
+| **Claude Code** | `CLAUDE.md` is read as project-level instructions; skill installable via `npx skills add https://github.com/ydu2047/weekly-review-agent --skill personal-weekly-review` |
+
+Each tool reads only its own files and ignores the other's — they coexist cleanly.
+
+---
+
 ## What It Does
 
 You keep a running log of your week in `weekly_agenda.md`. When you ask the agent to run a review, it reads your notes, synthesises them through a coaching lens, and produces a narrative reflection — not a summary of tasks, but an observation of *you*: where your energy went, what you kept avoiding, what pattern is quietly forming across weeks.
